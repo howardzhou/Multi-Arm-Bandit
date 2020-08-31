@@ -158,3 +158,4 @@ class GaussianUCBPolicy(Policy):    # By Howard
             return action
         else:
             return np.random.choice(check)
+        # print("test")
